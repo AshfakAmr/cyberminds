@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  color: #5a5a5a;
+}
+
+select {
+  color: #009379;
+  font-weight: bold;
+  border: none;
+}
+
+select:focus {
+  outline: none;
+  border: none;
+}
+
+.img {
+  width: 26px;
+  border-radius: 50px;
+}
+.italic {
+  font-style: italic;
+}
+
+.form_container {
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 20px;
+}
+
+.app {
+  width: 31.9rem;
+  /* max-height: 700px; */
+  border-radius: 20px;
+  padding: 25px;
+  margin: 0 auto;
+  border: 1px solid #bcbcbc;
+  /* overflow-y: scroll; */
+}
+
+/* Buttons */
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+i {
+  color: #f28482;
+  font-size: 16px;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.fa-regular {
+  font-size: 16px;
+}
+
+.fa-trash-can {
+  font-size: 12px;
+}
+.fa-xmark {
+  font-size: 11px;
+}
+
+.delete_btn_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+/* Input Boxes */
+.input_boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  border-radius: 20px;
+  border: 1px #cecece solid;
+  height: 37px;
+  padding: 2px 12px;
+}
+
+.input_boxes input:first-child {
+  height: 44px;
+  color: #e92c2c;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 20px;
+  caret-color: #000;
+}
+
+.input_boxes input:first-child::placeholder {
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 400;
+
+  line-height: 44px;
+}
+
+/* Dropdown Boxes */
+.dropDown_boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0 25px 0;
+}
+
+.notes,
+.dropDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes {
+  align-items: start;
+}
+
+.notes_text,
+.assign {
+  display: flex;
+  gap: 16px;
+}
+
+.select {
+  display: flex;
+  gap: 10px;
+  width: 16.2rem;
+  border-radius: 25px;
+  border: 1px #ededed solid;
+  height: 45px;
+  padding: 10px 15px 10px 15px;
+}
+
+.notes input {
+  width: 19rem;
+  border-radius: 12px;
+  height: 44px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #ededed;
+  height: 65px;
+}
+
+/* Comment Section */
+.comment_input_box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.comment_input_box input {
+  border: none;
+
+  height: 1.3rem;
+  padding: 10px;
+}
+
+.comment_input_box .img {
+  height: 26px;
+}
+
+.comment_input_box .input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.comment_input_box input:focus {
+  outline: none;
+}
+
+.fa-pen-to-square,
+.fa-paper-plane {
+  font-size: 12px;
+}
+
+h4 {
+  color: #5a5a5a;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: #009379;
+}
+
+.comment_container {
+  display: flex;
+  gap: 15px;
+  margin: 5px 0 30px 0;
+  align-items: center;
+}
+
+.comment_container .buttons {
+  margin-left: auto; /* This pushes the button to the end */
+}
+
+.comment_container .img {
+  height: 26px;
+}
+
+.comment_box h5 {
+  margin-bottom: 3px;
+}
+
+/* .comment_box {
+  width: 200px;
+} */
+
+.comment_box input {
+  outline: none;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-check {
+  font-size: 13.5px;
+}
+
+.comments::-webkit-scrollbar,
+.cmt_container::-webkit-scrollbar {
+  display: none;
+}
+.comments {
+  max-width: 172px;
+  overflow-x: scroll;
+}
+.cmt_container {
+  max-height: 130px;
+  overflow-y: scroll;
+}
+
+.btn {
+  cursor: pointer;
+}
